@@ -1,0 +1,14 @@
+{
+    "name": "vitara/mvc-framework",
+    "description": "Simple MVC Framework without any dependencies",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+} 
